@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="portscanner:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/portscanner_jar</output-path>
+    <root id="archive" name="portscanner.jar">
+      <element id="module-output" name="portscanner" />
+    </root>
+  </artifact>
+</component>
