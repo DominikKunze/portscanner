@@ -9,8 +9,7 @@ public class Main {
         if(args.length==0){
             Gui gui = new Gui();
             gui.openGUI();
-        }
-        if(args[0].equalsIgnoreCase("--headless")){
+        }else if(args[0].equalsIgnoreCase("--headless")){
             Thread t = new Thread(new Runnable() {
                 @Override
                 public void run() {
